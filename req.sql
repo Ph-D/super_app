@@ -1,0 +1,6 @@
+CREATE TABLE  `super_app`.`utilisateurs` (
+`id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`prenom` VARCHAR( 40 ) NOT NULL ,
+`nom` VARCHAR( 40 ) NOT NULL ,
+`email` VARCHAR( 50 ) NOT NULL
+) ENGINE = MYISAM ;
